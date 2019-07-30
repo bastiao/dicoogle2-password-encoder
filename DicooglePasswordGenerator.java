@@ -13,7 +13,7 @@ public class DicooglePasswordGenerator{
 	        String hash = HashService.getSHA1Hash(username + admin + passHash);
 	        System.out.println("username="+args[0]);
 	        System.out.println("password="+args[1]);
-	        System.out.println("hash=" + passHash);
+	        System.out.println("hash=" + hash);
 
 	}
 }
